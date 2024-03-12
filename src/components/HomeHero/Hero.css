@@ -1,0 +1,35 @@
+.hero{
+  padding: 250px;
+  background: #014E56;
+  background-image: url('../../components/img/Group\ 8.png'), url('../../components/img/Group\ 4.png');
+  background-repeat: no-repeat;
+  background-position: left center, bottom right 200px;
+}
+.hero__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero__title{
+  color: aliceblue;
+  font-family: Livvic;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  span{
+    color: #F67E7E;
+  }
+}
+.hero__info{
+color: aliceblue;
+margin-top: 79px;
+}
+.vector{
+
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background: #79C8C7;
+}

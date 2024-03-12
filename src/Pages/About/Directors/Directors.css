@@ -1,0 +1,90 @@
+.Directors{
+  background-color: #004047;
+  background-image: url('../../../components/img/Group\ 8\ \(1\).png'),url('../../../components/img/Group\ 8\ Copy.png');
+  background-repeat: no-repeat;
+  background-position:top left,bottom right;
+  height: 800px;
+  padding-top: 50px;
+}
+
+.direc__title{
+  text-align: center;
+  color: aliceblue;
+  font-size: 48px;
+}
+.Wrapper{
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:30px;
+  flex-wrap: wrap;
+
+}
+.man__box{
+  margin-top: 40px;
+margin-left: 20px;
+width: 250px;
+height: 203px;
+background-color: #012F34;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.man__name{
+font-size: 18px;
+color:#79C8C7;
+margin-top: 120px;
+}
+.man__dec{
+font-size: 12px;
+font-style: italic;
+color: aliceblue;
+opacity: 0.9;
+}
+.plus__box{
+transform: translatey(23px);
+background-color: #F67E7E;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+text-align: center;
+
+
+}
+.plus{
+  color:#004047  ;
+  font-size:30px;
+}
+.man__box:nth-child(1){
+  background-image: url('../../../components/img/Oval.png');
+  background-repeat: no-repeat;
+  background-position:top 30px center;
+  background-size: 70px;
+}
+.man__box:nth-child(4){
+  margin-left: 200px;
+  background-image: url('../../../components/img/Oval\ \(2\).png');
+  background-repeat: no-repeat;
+  background-position:top 30px center;
+  background-size: 70px;
+}
+.man__box:nth-child(5){
+  margin-right: 200px;
+  background-image: url('../../../components/img/Oval\ \(1\).png');
+  background-repeat: no-repeat;
+  background-position:top 30px center;
+  background-size: 70px;
+}
+.man__box:nth-child(2){
+  background-image: url('../../../components/img/Oval\ \(4\).png');
+  background-repeat: no-repeat;
+  background-position:top 30px center;
+  background-size: 70px;
+}
+.man__box:nth-child(3){
+  background-image: url('../../../components/img/Oval\ \(3\).png');
+  background-repeat: no-repeat;
+  background-position:top 30px center;
+  background-size: 70px;
+}

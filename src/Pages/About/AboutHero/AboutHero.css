@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.about__hero{
+ background-color: #014E56;
+ height: 517px;
+ background-image: url('../../../components/img/Group\ 8.png');
+ background-repeat: no-repeat;
+ background-position: right bottom;
+}
+
+.About__hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+}
+.About__title{
+  margin-top: 141px;
+}
+.Title{
+  font-size: 64px;
+}
+.tayoq{
+  width: 50px;
+  border: 2px solid #F67E7E;
+  margin-bottom: 50px;
+}
+.About__des{
+  height: 156px;
+  margin-top: 141px;
+  margin-left: 300px;
+  width: 730px;
+}
+.about__des{
+font-size: 18px;
+}

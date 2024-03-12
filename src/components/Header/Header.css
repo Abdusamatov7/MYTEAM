@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+   background: #014E56;
+   padding: 55px;
+}
+.container{
+width: 1200px;
+margin: 0 auto;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  list-style-type: none;
+  font-family: Livvic-title;
+}
+.logo :nth-child(1){
+  font-size: 50px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo :nth-child(1):hover{
+  color:aliceblue;
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+
+
+  }
+  li:nth-child(3){
+    border-radius: 29px;
+    border: 2px solid #FFF;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 9px;
+    color: #FFF;
+font-family: Livvic;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+transition: linear 0.2s;
+  }
+  li:nth-child(3):hover{
+    background-color: #FFF;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+
+  }
+  li:nth-child(2){
+    flex-grow: 1;
+  }
+ul,ol{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  transition: linear 0.2s;
+}
+a:hover{
+  color:#F67E7E;
+}
+.contact{
+  transition: linear 0.2s;
+  border: #FFF;
+}
+.contact:hover{
+  color: #014E56;
+
+}
+.nav__item{
+  margin-left: 42px;
+}

@@ -1,0 +1,95 @@
+.working{
+  background: #004047;
+  background-image: url('../../components/img/Group\ 8\ Copy\ \(1\).svg'), url('../img/Group\ 8\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  padding: 200px;
+}
+.working__title{
+  text-align: center;
+  color: #FFF;
+text-align: center;
+font-family: Livvic;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+
+}
+.stories{
+  color: #79C8C7;
+  font-family: Livvic;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.wrapper{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.cadiy{
+  padding: 30px;
+background-image: url('../img/“\ \(1\).svg');
+background-repeat: no-repeat;
+background-position: top center, bottom;
+
+
+}
+.oval{
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+border-radius: 62px;
+border: 2px solid #C4FFFE;
+margin-top: 50px;
+margin-left: 140px;
+}
+
+
+
+.aiysha{
+  padding: 30px;
+  background-image: url('../../components/img/“\ \(1\).svg');
+  background-repeat: no-repeat;
+background-position: top center, bottom;
+
+}
+.arthur{
+  padding: 30px;
+  background-image: url('../../components/img/“\ \(1\).svg');
+  background-repeat: no-repeat;
+background-position: top center, bottom;
+}
+.text{
+  color: #FFF;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 5px;
+
+}
+.title{
+  color: #79C8C7;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.info{
+  margin-top: 10px;
+  color: #FFF;
+text-align: center;
+font-family: Livvic;
+font-size: 13px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px; /* 138.462% */
+}
